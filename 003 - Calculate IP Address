@@ -1,0 +1,9 @@
+fun main(args: Array<String>){
+  val arrayA: IntArray = intArrayOf(10,0,0,0)
+  val arrayB: IntArray = intArrayOf(10,0,0,50)
+  var arrayC = arrayA + arrayB
+
+ arrayA.forEachIndexed {index, item -> arrayC[index] = arrayA[index] + arrayB[index] 
+  println("${arrayC[index]}")}
+  
+}
