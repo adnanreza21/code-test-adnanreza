@@ -1,0 +1,9 @@
+fun main() {
+   val ganti = "example hello example"
+   val ganti2 = "a b c"
+
+    val setelahGanti = ganti.replace("hello", "")
+    val setelahGanti2 = ganti2.replace("b c", "")
+    println(setelahGanti)
+     println(setelahGanti2)
+}
